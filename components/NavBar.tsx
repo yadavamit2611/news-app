@@ -10,13 +10,13 @@ const NavBar = () => {
                 <Nav.Link as={Link} href="/"> Breaking</Nav.Link>
                 <Nav.Link as={Link} href="/search"> Search</Nav.Link>
                 <NavDropdown title="categories" id="categories-dropdown">
-                    <NavDropdown.Item as={Link} href="categories/business">Business</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/entertainment">entertainment</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/sports">Sports</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/health">Health</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/general">General</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/science">Science</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} href="categories/technology">Technology</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/business">Business</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/entertainment">entertainment</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/sports">Sports</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/health">Health</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/general">General</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/science">Science</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} href="/categories/technology">Technology</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
         </Container>
