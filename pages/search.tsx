@@ -1,7 +1,7 @@
 import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 import { NewsArticle, NewsResponse } from "@/models/NewsArticles";
 import {FormEvent, useState} from "react"
-import {Form, Button,Spinner } from "react-bootstrap"
+import {Form, Button,Spinner,Alert } from "react-bootstrap"
 
 const SearchNewsPage = () => {
     const [searchResults, setSearchResults] = useState<NewsArticle[] | null>(null);
@@ -33,6 +33,7 @@ const SearchNewsPage = () => {
 
     return (<main>
         <h1>Search News</h1>
+        {/* <Alert>This page uses <strong>client side data fetching</ strong> to show fresh data for every search <strong>API routes</strong></Alert> */}
         <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="search-input">
                 <Form.Label>Search Query</Form.Label>
